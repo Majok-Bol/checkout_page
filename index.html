@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <section>
+      <h2>Your Cart</h2>
+      <img
+        src="https://images.pexels.com/photos/31925214/pexels-photo-31925214/free-photo-of-vibrant-yellow-chrysanthemums-in-bloom.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="flower"
+      />
+    </section>
+    <section>
+      <h2>Payment Information</h2>
+      <form>
+        <div>
+          <label for="card-name">Name</label>
+          <input
+            required
+            id="card-name"
+            type="text"
+            name="card-name"
+            aria-required="true"
+          />
+        </div>
+        <div>
+          <label for="card-number">Cart Number</label>
+          <input
+            id="card-number"
+            required
+            type="number"
+            name="card-number"
+            aria-required="true"
+          />
+        </div>
+        <div>
+          <label for="expiry-date">Expiry date </label>
+          <input
+            id="expiry-date"
+            type="number"
+            name="expiry-date"
+      
+          />
+        </div>
+        <div>
+          <label for="cvv"> CVV</label>
+          <input type="number" name="cvv" id="cvv" />
+        </div>
+        <button type="submit">Place order</button>
+      </form>
+    </section>
+  </body>
+</html>
